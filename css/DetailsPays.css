@@ -1,0 +1,86 @@
+.imahe {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.imahe::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpapers-clan.com/wp-content/uploads/2023/11/view-of-space-from-desolate-planet-desktop-wallpaper-preview.jpg');
+  background-size: cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.image3 {
+  text-shadow: 0px 1px 8px #000000;
+  font-family: 'Arial, sans-serif';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  
+  .flagImage {
+    width: 200px;
+    margin-bottom: 20px;
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  .countryName {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sections-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .section {
+    text-shadow: 0px 6px 29px #000000;
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #cc0700;
+  }
+
+  .home-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #cc0700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-button:hover {
+    background-color: #cc0700;
+  }
+
+  .homeButton {
+    position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #2524247c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }

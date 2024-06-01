@@ -1,0 +1,47 @@
+.BoutonCherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: transparent;
+    transition: border-bottom 250ms ease-in-out, padding 250ms ease-in-out, background-position 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+  }
+
+  
+  input {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .input-field {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-field::placeholder {
+    color: #999;
+    transition: color 0.3s ease;
+  }
+  
+  .input-field:focus::placeholder {
+    color: transparent;
+  }
+
+
+  

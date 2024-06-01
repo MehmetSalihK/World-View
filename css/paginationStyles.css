@@ -1,0 +1,23 @@
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
+.pagination-buttons button {
+  margin: 0 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.pagination-buttons button:disabled {
+  opacity: 0.5;
+}
