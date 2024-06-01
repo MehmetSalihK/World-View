@@ -91,6 +91,3 @@ La page de détail inclut les sections suivantes pour un pays sélectionné :
 
 Les contributions sont les bienvenues ! Veuillez forker le dépôt et créer une pull request avec vos modifications. Assurez-vous que votre code respecte les standards de codage du projet et inclut des tests appropriés.
 
-## Licence
-
-Ce projet est licencié sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
